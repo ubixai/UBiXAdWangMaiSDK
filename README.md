@@ -1,0 +1,2 @@
+# UBiXAdWangMaiSDK
+UBiXAdWangMaiSDK
