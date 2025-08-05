@@ -2,7 +2,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'UBiXAdWangMaiSDK'
-  s.version          = '7.3.1.16'
+  s.version          = '7.3.1.16.1'
   s.summary          = 'AdWangMai SDK for iOS'
   s.homepage         = 'https://www.ubixai.com/product/md'
   # s.license          = { :type => 'MIT', :file => 'LICENSE' }
@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
 
   # s.static_framework = true
   s.vendored_frameworks = 'UBiXAdWangMaiSDK/UBiX_AdWangMaiSDK.framework'
-  s.resource = 'UBiXAdWangMaiSDK/adwangmai_sdk.bundle'
+  s.resource = 'UBiXAdWangMaiSDK/UBiX_adwangmai_sdk.bundle'
   
 
   
