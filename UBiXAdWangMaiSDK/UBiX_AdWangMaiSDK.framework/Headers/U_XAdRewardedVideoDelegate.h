@@ -1,6 +1,6 @@
 //
-//  U_XAdRewardedVideoDelegate.h
-//  U_AdWangMaiSDK
+//  XAdRewardedVideoDelegate.h
+//  AdWangMaiSDK
 //
 //  Created by 周泽浩 on 2023/3/1.
 //
@@ -39,6 +39,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)rewardVideoOnClick;
 
 /// 关闭
+/// - Note: 已达标但服务端验证尚未完成时若先触发关闭（或控制器被释放），SDK 丢弃该次在途奖励，不再补发 rewardVideoOnRewarded:。
 - (void)rewardVideoOnAdClose;
 
 /// 播放失败
@@ -49,7 +50,8 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)rewardVideoOnVideoComplete;
 
 /// 奖励回调
-/// - Parameter rewards: 奖励，开启服务端回调后，根据rewards中的verify字段判断奖励是否有效
+/// - Parameter rewards: 奖励；开启服务端回调后按 rewards 中的 isVerify 字段判断奖励是否有效。
+/// - Note: 仅在控制器关闭前完成验证时回调；先关闭或释放控制器时，已达标奖励会被丢弃且本回调不再补发。
 - (void)rewardVideoOnRewarded:(NSDictionary *)rewards;
 @end
 

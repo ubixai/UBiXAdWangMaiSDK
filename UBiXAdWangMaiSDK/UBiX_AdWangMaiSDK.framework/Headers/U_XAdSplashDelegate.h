@@ -1,5 +1,5 @@
 //
-//  U_XAdSplashDelegate.h
+//  XAdSplashDelegate.h
 //  WangMaiAdSDK
 //
 //  Created by 周泽浩 on 2023/2/13.

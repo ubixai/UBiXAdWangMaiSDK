@@ -1,19 +1,19 @@
 //
-//  U_AdWangMaiSDK.h
-//  U_AdWangMaiSDK
+//  AdWangMaiSDK.h
+//  AdWangMaiSDK
 //
 //  Created by 周泽浩 on 2023/2/17.
 //
 
 #import <Foundation/Foundation.h>
 
-//! Project version number for U_AdWangMaiSDK.
-FOUNDATION_EXPORT double AdWangMaiSDKVersionNumber;
+//! Project version number for AdWangMaiSDK.
+FOUNDATION_EXPORT double UBiX_AdWangMaiSDKVersionNumber;
 
-//! Project version string for U_AdWangMaiSDK.
-FOUNDATION_EXPORT const unsigned char AdWangMaiSDKVersionString[];
+//! Project version string for AdWangMaiSDK.
+FOUNDATION_EXPORT const unsigned char UBiX_AdWangMaiSDKVersionString[];
 
-// In this header, you should import all the public headers of your framework using statements like #import <U_AdWangMaiSDK/PublicHeader.h>
+// In this header, you should import all the public headers of your framework using statements like #import <AdWangMaiSDK/PublicHeader.h>
 
 
 #import <UBiX_AdWangMaiSDK/U_XAdWangMaiSDk.h>
@@ -32,3 +32,4 @@ FOUNDATION_EXPORT const unsigned char AdWangMaiSDKVersionString[];
 #import <UBiX_AdWangMaiSDK/U_XAdNativeAd.h>
 #import <UBiX_AdWangMaiSDK/U_XAdNativeAdResponse.h>
 #import <UBiX_AdWangMaiSDK/U_XAdNativeDelegete.h>
+

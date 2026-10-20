@@ -1,5 +1,5 @@
 //
-//  U_XAdWangMaiSDk.h
+//  XAdWangMaiSDk.h
 //  adwangmai_sdk
 //
 //  Created by 周泽浩 on 2022/11/30.

@@ -2,7 +2,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'UBiXAdWangMaiSDK'
-  s.version          = '8.0.0.1.0'
+  s.version          = '8.1.0.1.0'
   s.summary          = 'AdWangMai SDK for iOS'
   s.homepage         = 'https://www.ubixai.com/product/md'
   # s.license          = { :type => 'MIT', :file => 'LICENSE' }

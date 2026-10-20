@@ -1,6 +1,6 @@
 //
-//  U_XAdInterstitialDelegate.h
-//  U_AdWangMaiSDK
+//  XAdInterstitialDelegate.h
+//  AdWangMaiSDK
 //
 //  Created by 周泽浩 on 2023/3/2.
 //

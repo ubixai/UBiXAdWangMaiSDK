@@ -1,6 +1,6 @@
 //
-//  U_XAdNativeExpressDelegete.h
-//  U_AdWangMaiSDK
+//  XAdNativeExpressDelegete.h
+//  AdWangMaiSDK
 //
 //  Created by 周泽浩 on 2023/3/6.
 //

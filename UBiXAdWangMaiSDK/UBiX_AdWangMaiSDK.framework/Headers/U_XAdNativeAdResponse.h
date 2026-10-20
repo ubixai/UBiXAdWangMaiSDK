@@ -1,5 +1,5 @@
 //
-//  U_XAdNativeAdResponse.h
+//  XAdNativeAdResponse.h
 //  PublicFilePackage
 //
 //  Created by 周泽浩 on 2018/9/5.
@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
-typedef NS_ENUM(NSInteger, NativeAdType) {
+typedef NS_ENUM(NSInteger, U_NativeAdType) {
     NORMAL_NativeAD, // 一般图文或图片广告
     VIDEO_NativeAD, // 视频广告
 };
@@ -42,7 +42,7 @@ typedef NS_ENUM(NSInteger, NativeAdType) {
 // 素材高度
 @property (nonatomic,assign) NSInteger materialHeight;
 /// 物料类型
-@property (nonatomic,assign) NativeAdType adType;
+@property (nonatomic,assign) U_NativeAdType adType;
 
 @property (nonatomic,assign) NSInteger eCPM;
 

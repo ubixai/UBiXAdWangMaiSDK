@@ -1,0 +1,5 @@
+framework module UBiX_AdWangMaiSDK {
+ umbrella header "U_AdWangMaiSDK.h"
+ export *
+ module * { export * }
+}

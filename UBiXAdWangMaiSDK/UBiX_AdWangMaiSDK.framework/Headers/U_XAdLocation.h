@@ -1,6 +1,6 @@
 //
-//  U_XAdLocation.h
-//  U_AdWangMaiSDK
+//  XAdLocation.h
+//  AdWangMaiSDK
 //
 //  Created by 周泽浩 on 2023/8/9.
 //
